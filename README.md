@@ -7,7 +7,7 @@ a particular mime type: `rename -v \.png \.bak $(find /usr/share/icons/Adwaita/*
 
 A prime example is VirtualBox and virtual machine file extensions:  `*.vdi`, `*.vbox`, `*.vmdk`. This is just one example.
 With the release of `adwaita-icon-theme-3.38.0`, the fault is present globally. Tested in Fedora 33 (Gnome/Mate), Solus 4.1 (Budgie/Mate/Gnome), Mageia-8 (all DE).
-The latest version that works correctly - `adwaita-icon-theme`-3.37.2`.
+The latest version that works correctly - `adwaita-icon-theme-3.37.2`.
 
 The `adwaita-mime-patch` package contains a couple of scripts for the `%post` and `%postun` events:   
 %post  
