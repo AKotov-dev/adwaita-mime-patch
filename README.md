@@ -13,4 +13,3 @@ The latest version that works correctly - "adwaita-icon-theme"-3.37.2.
 After installing this patch, the display of mime-type icons works correctly. After deleting the package, everything returns to its original state. That is, to quickly roll back when the problem is resolved.
 
 GitLab: https://gitlab.gnome.org/GNOME/adwaita-icon-theme/-/issues/108  
-Mageia Bugzilla – Bug 27644: https://bugs.mageia.org/show_bug.cgi?id=27644
