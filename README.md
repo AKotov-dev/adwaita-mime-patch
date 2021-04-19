@@ -12,12 +12,10 @@ The latest version that works correctly - "adwaita-icon-theme"-3.37.2.
 
 The `adwaita-mime-patch` package contains a couple of scripts for the `%post` and `%postun` events:   
 %post  
-`rename -v \.png \.bak $(find /usr/share/icons/Adwaita/*/mimetypes/ -name 'application-x-generic.*')  
-gtk-update-icon-cache -f /usr/share/icons/Adwaita/`
+`rename -v \.png \.bak $(find /usr/share/icons/Adwaita/*/mimetypes/ -name 'application-x-generic.*'); gtk-update-icon-cache -f /usr/share/icons/Adwaita/`
 
 %postun  
-`rename -v \.bak \.png $(find /usr/share/icons/Adwaita/*/mimetypes/ -name 'application-x-generic.*')  
-gtk-update-icon-cache -f /usr/share/icons/Adwaita/`
+`rename -v \.bak \.png $(find /usr/share/icons/Adwaita/*/mimetypes/ -name 'application-x-generic.*'); gtk-update-icon-cache -f /usr/share/icons/Adwaita/`
 
 After installing this patch, the display of mime-type icons works correctly. After deleting the package, everything returns to its original state. That is, to quickly roll back when the problem is resolved.
 
