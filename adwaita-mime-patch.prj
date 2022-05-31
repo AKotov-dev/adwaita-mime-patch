@@ -5,7 +5,7 @@ name=adwaita-mime-patch
 version=1
 
 [RELEASE]
-release=0.mrx8
+release=1.mrx9
 
 [GROUP]
 group=Applications/File
@@ -23,7 +23,7 @@ vendor=MgaRemix
 summary=Patch for Adwaita mime-type icons theme
 
 [URLCOPY]
-urlcopy=https://cloud.mail.ru/public/4XHM/3AeR7XSSp
+urlcopy=https://github.com/AKotov-dev/adwaita-mime-patch
 
 [LICENSE]
 license=GPLv2
@@ -39,6 +39,9 @@ noarch=1
 
 [SIGN]
 sign=0
+
+[DEB]
+deb=0
 
 [AFTERINSTALL]
 0=rename -v \.png \.bak $(find /usr/share/icons/Adwaita/*/mimetypes/ -name 'application-x-generic.*')
