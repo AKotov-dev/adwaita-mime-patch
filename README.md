@@ -18,7 +18,7 @@ The `adwaita-mime-patch` package contains a couple of scripts for the `%post` an
 
 After installing this patch, the display of mime-type icons works correctly. After deleting the package, everything returns to its original state. That is, to quickly roll back when the problem is resolved.
 
-GitLab: https://gitlab.gnome.org/GNOME/adwaita-icon-theme/-/issues/108  
+Issue: https://gitlab.gnome.org/GNOME/adwaita-icon-theme/-/issues/108  
 
 Icons before the patch:  
 ![](https://github.com/AKotov-dev/adwaita-mime-patch/blob/main/ScreenShots/before-patch.png)  
