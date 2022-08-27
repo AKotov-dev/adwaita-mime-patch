@@ -20,6 +20,8 @@ After installing this patch, the display of mime-type icons works correctly. Aft
 
 Issue: https://gitlab.gnome.org/GNOME/adwaita-icon-theme/-/issues/108  
 
+**Similar programs:** [shared-mime-info-patch](https://github.com/AKotov-dev/shared-mime-info-patch)
+
 Icons before the patch:  
 ![](https://github.com/AKotov-dev/adwaita-mime-patch/blob/main/ScreenShots/before-patch.png)  
 
