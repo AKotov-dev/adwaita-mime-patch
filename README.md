@@ -4,8 +4,11 @@ adwaita-mime-patch
 + Switch to a different system icon theme
 + Delete the unwanted package: `rpm -e --nodeps adwaita-icon-theme`
 
-...or try using the patch
+...or...
 
+In order to never install updated versions of `adwaita-icon-theme` on Mageia Linux again, an artificial release `1003.37.2` was made from the latest correct version `3.37.2`.
+
+### History  
 Patch package that eliminates the overlap of mime-type icons in adwaita-icon-theme  
 
 In the version `adwaita-icon-theme-3.37.92` and higher, the icons of the mime types `application-x-generic.png` overlap the newly created mime types from the `hicolor` theme and puts empty icons instead of the mime icons of the application files. Only after manual intervention it becomes possible to see the real icons of
