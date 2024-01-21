@@ -4,7 +4,7 @@ adwaita-mime-patch
 + Switch to a different system icon theme
 + Delete the unwanted package: `rpm -e --nodeps adwaita-icon-theme`
 
-...or install the simulated package to exclude updates.
+...or install the simulated empty package to exclude updates.
 
 ### History  
 Patch package that eliminates the overlap of mime-type icons in adwaita-icon-theme  
