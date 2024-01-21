@@ -6,7 +6,7 @@ adwaita-mime-patch
 
 ...or...
 
-In order to never install updated versions of `adwaita-icon-theme` on Mageia Linux again, an artificial release `1003.37.2` was made from the latest correct version `3.37.2`.
+Install the simulated package to exclude updates.
 
 ### History  
 Patch package that eliminates the overlap of mime-type icons in adwaita-icon-theme  
