@@ -38,7 +38,7 @@ meta=1
 noarch=1
 
 [DEB]
-deb=0
+deb=1
 
 [URL32]
 url32=
